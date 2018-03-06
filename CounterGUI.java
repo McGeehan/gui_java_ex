@@ -1,11 +1,5 @@
 import javax.swing.JFrame;
 
-/**
- * <b>CounterGUI Class</b>
- * <p>
- * Creates a GUI for counting through button press.
- * @author James Wen - jrw2175
- */
 
 public class CounterGUI {
   public static void main(String[] args){

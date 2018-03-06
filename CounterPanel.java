@@ -2,15 +2,6 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-/**
- * <b>CounterPanel Class</b>
- * <p>
- * Represents the primary content panel for Counting functionality.
- * <p>
- * Inherits from JPanel.
- * @author James Wen - jrw2175
- */
-
 public class CounterPanel extends JPanel {
 
   private JLabel countLabel;
@@ -49,17 +40,9 @@ public class CounterPanel extends JPanel {
 
     //CounterPanel component adding
     add(mainPanel, BorderLayout.CENTER);
-    add(new JLabel("W1004: Java GUI Demo"), BorderLayout.PAGE_START);
+    add(new JLabel("DPR104: Java GUI Demo"), BorderLayout.PAGE_START);
   }
-  /**
-   * <b>CountListener Class</b>
-   * <p>
-   * Listener that tracks counting functionality Button actions/events.
-   * Increments count on button press and updates countLabel JLabel.
-   * <p>
-   * Implements the ActionListener interface.
-   * @author James Wen - jrw2175
-   */  
+
   private class CountListener implements ActionListener {
     public void actionPerformed(ActionEvent event){
       //Increment count and update countLabel
